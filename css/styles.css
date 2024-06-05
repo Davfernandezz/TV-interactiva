@@ -57,8 +57,10 @@ body {
     align-items: center;
     box-sizing: content-box;
     cursor: pointer;
-    background-color: rgb(52, 52, 52);
+    border-radius: 0.5em;
     font-weight: bold;
+    background-color: rgb(52, 52, 52);
+    
 }
 
 #swiched {
@@ -68,7 +70,7 @@ body {
 
 }
 
-#ONOFF {
+.OFF {
     width: 2em;
     height: 2em;
     display: flex;
@@ -78,6 +80,19 @@ body {
     cursor: pointer;
     border-radius: 50%;
     background-color: rgb(205, 31, 31);
+
+}
+
+.ON {
+    width: 2em;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgb(37, 205, 31);
 
 }
 
@@ -101,6 +116,7 @@ body {
     justify-content: center;
     font-weight: bold;
     cursor: pointer;
+    border-radius: 0.5em;
     background-color: rgb(52, 52, 52);
 }
 
@@ -113,6 +129,7 @@ body {
     justify-content: center;
     font-weight: bold;
     cursor: pointer;
+    border-radius: 0.5em;
     background-color: rgb(52, 52, 52);
 }
 
