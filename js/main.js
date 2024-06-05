@@ -10,12 +10,16 @@ let fecha = new Date();
 
 
 
-for(let i = 0; i < arrayBoton.length; i++){
+for (let i = 0; i < arrayBoton.length; i++) {
     arrayBoton[i].addEventListener("click", () => {
-        if(encendido){
-            canal.innerHTML = `Canal ${i+1}`
+        if (encendido) {
+            canal.innerHTML = `Canal ${i + 1}`
+            hora.innerHTML = fecha.toLocaleTimeString();
+            date.innerHTML = fecha.toLocaleDateString();
+
         }
     })
+
 }
 
 power.addEventListener("click", () => {
@@ -25,9 +29,5 @@ power.addEventListener("click", () => {
     hora.innerHTML = fecha.toLocaleTimeString();
     date.innerHTML = fecha.toLocaleDateString();
 
-    setTimeout(function () {
-        hora.style.visibility = "hidden";
-        date.style.visibility = "hidden";
-    }, 4500);
 })
 
