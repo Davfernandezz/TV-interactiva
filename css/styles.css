@@ -6,7 +6,9 @@ body {
     align-items: center;
     box-sizing: content-box;
     min-height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
@@ -34,12 +36,14 @@ body {
 
 .mando {
     width: 10em;
-    height: 24em;
+    height: 28em;
     margin-left: 5em;
+    margin-top: 2em;
+    border-radius: 1em;
     align-items: center;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    border-radius: 2em;
+    box-sizing: content-box;
     background-color: black;
 }
