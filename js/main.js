@@ -8,8 +8,6 @@ let date = document.getElementById("date")
 let hora = document.getElementById("hora")
 let fecha = new Date();
 
-
-
 for (let i = 0; i < arrayBoton.length; i++) {
     arrayBoton[i].addEventListener("click", () => {
         if (encendido) {
@@ -18,15 +16,17 @@ for (let i = 0; i < arrayBoton.length; i++) {
             date.innerHTML = fecha.toLocaleDateString();
         }
     })
-
 }
 
 power.addEventListener("click", () => {
     power.classList.toggle("ON")
     encendido = !encendido
-    
-    hora.innerHTML = fecha.toLocaleTimeString();
-    date.innerHTML = fecha.toLocaleDateString();
-
+    if(encendido){
+        hora.innerHTML = fecha.toLocaleTimeString();
+        date.innerHTML = fecha.toLocaleDateString();
+    } else {
+        hora.innerHTML = ""
+        date.innerHTML = ""
+        canal.innerHTML = ""
+    }
 })
-
