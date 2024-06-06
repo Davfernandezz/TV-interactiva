@@ -16,7 +16,6 @@ for (let i = 0; i < arrayBoton.length; i++) {
             canal.innerHTML = `Canal ${i + 1}`
             hora.innerHTML = fecha.toLocaleTimeString();
             date.innerHTML = fecha.toLocaleDateString();
-
         }
     })
 
@@ -25,7 +24,7 @@ for (let i = 0; i < arrayBoton.length; i++) {
 power.addEventListener("click", () => {
     power.classList.toggle("ON")
     encendido = !encendido
-
+    
     hora.innerHTML = fecha.toLocaleTimeString();
     date.innerHTML = fecha.toLocaleDateString();
 
