@@ -10,20 +10,44 @@ let fecha = new Date();
 
 for (let i = 0; i < arrayBoton.length; i++) {
     arrayBoton[i].addEventListener("click", () => {
+
+        hora.style.visibility = "visible";
+        date.style.visibility = "visible";
+        canal.style.visibility = "visible";
+
         if (encendido) {
             canal.innerHTML = `Canal ${i + 1}`
             hora.innerHTML = fecha.toLocaleTimeString();
             date.innerHTML = fecha.toLocaleDateString();
+
+            setTimeout(function () {
+                hora.style.visibility = "hidden";
+                date.style.visibility = "hidden";
+                canal.style.visibility = "hidden";
+            }, 5500);
         }
+
     })
 }
 
 power.addEventListener("click", () => {
+
+    canal.style.visibility = "visible";
+    hora.style.visibility = "visible";
+    date.style.visibility = "visible";
+
     power.classList.toggle("ON")
     encendido = !encendido
-    if(encendido){
+    if (encendido) {
         hora.innerHTML = fecha.toLocaleTimeString();
         date.innerHTML = fecha.toLocaleDateString();
+
+        setTimeout(function () {
+            hora.style.visibility = "hidden";
+            date.style.visibility = "hidden";
+            canal.style.visibility = "hidden";
+        }, 5500);
+
     } else {
         hora.innerHTML = ""
         date.innerHTML = ""
