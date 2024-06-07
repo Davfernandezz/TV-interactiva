@@ -34,12 +34,12 @@ for (let i = 0; i < arrayBoton.length; i++) {
     })
 }
 
+
 power.addEventListener("click", () => {
 
     canal.style.visibility = "visible";
     hora.style.visibility = "visible";
     date.style.visibility = "visible";
-    pantalla.style.visibility = "visible";
 
     power.classList.toggle("ON")
     encendido = !encendido
@@ -58,7 +58,5 @@ power.addEventListener("click", () => {
         hora.innerHTML = ""
         date.innerHTML = ""
         canal.innerHTML = ""
-        
-        
     }
 })
