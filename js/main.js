@@ -55,6 +55,7 @@ power.addEventListener("click", () => {
         }, 5500);
 
     } else {
+        pantalla.classList.replace(pantalla.classList[0], "OFFtele");
         hora.innerHTML = ""
         date.innerHTML = ""
         canal.innerHTML = ""
