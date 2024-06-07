@@ -28,7 +28,7 @@ for (let i = 0; i < arrayBoton.length; i++) {
                 hora.style.visibility = "hidden";
                 date.style.visibility = "hidden";
                 canal.style.visibility = "hidden";
-            }, 5500);
+            }, 7000);
         }
 
     })
