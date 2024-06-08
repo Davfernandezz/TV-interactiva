@@ -1,4 +1,4 @@
-# FUEGOGOURMET🔥
+# TV interactiva🖥️
 
 ## Tabla de contenido
 
@@ -10,38 +10,24 @@
 
 
 ## Descripcion📚
-Mi primer proyecto formando parte de Geekshubs consiste en la creacion de una página web responsive usando HTML5 + CSS Layout y componentes de Bootstrap.
+En el siguiente proyecto formando parte de Geekshubs se propone el desarrollo de una interfaz de televisión interactiva con un mando a distancia utilizando tecnologías web como HTML, CSS y JavaScript. 
 
-He creado un establecimiento de hamburguesas en el que podremos ver un menu exquisito y podremos optar por mas funcionalidades.
+El objetivo principal es crear una experiencia de usuario intuitiva y
+funcional que simule la interacción con una televisión real.
 
-El establecimiento estara ubicado en un pequeño pueblo de Valencia llamado Castellar Oliveral.
 
 ## Diseño🖋️
 
-Hemos dividido la web en cuatro páginas distintas. La pagina principal, llamada "Home", tiene una barra de navegación en la parte superior y un carrusel de imagenes con su respectivo texto donde podremos apreciar la calidad de nuestra comida.
+El diseño del proyecto consiste en una televisión interactiva con un mando a distancia el cual podremos tanto enchufar como apagar la tele y nos mostrara por pantalla la fecha y el supuesto canal seleccionado.
 
-<img width="1426" alt="Captura de pantalla 2023-01-30 a las 20 20 38" src="img/home.JPG">
-
-La pagina "Carta" contendra el menu del restaurante, en el que podremos ver las diferentes hamburguesas que disponemos en tarjetas sacadas de Bootstrap. Estaran formadas por su imagen, nombre y descripcion.
-
-
-<img width="1423" alt="Captura de pantalla 2023-01-30 a las 20 24 31" src="img/carta-1.JPG">
-<img width="1423" alt="Captura de pantalla 2023-01-30 a las 20 24 31" src="img/carta-2.JPG">
-
-En la pagina "Contacto" nos facilitara informacion del restaurante además de contener un formulario para poder optar a promociones.
-
-Tambien habra ubicado un mapa en la parte inferior mostrando la localizacion del establecimiento.
-
-<img width="1423" alt="Captura de pantalla 2023-01-30 a las 20 24 31" src="img/contacto-1.JPG">
-<img width="1423" alt="Captura de pantalla 2023-01-30 a las 20 24 31" src="img/contacto-2.JPG">
-
+<img width="1426" alt="Captura de pantalla 2023-01-30 a las 20 20 38" src="img/diseño.JPG">
 
 
 ## Webgrafia
 
 Recursos con los que he completado el proyecto:
- - [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
- - [Restaurante](https://abarrotes.es/)
+ - [Gifs](https://gifer.com/es/)
+
 
 
 ## Stack
