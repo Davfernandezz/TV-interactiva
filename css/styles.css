@@ -150,9 +150,13 @@ body {
 
 .texto {
     z-index: 2;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 
 }
 
@@ -228,7 +232,7 @@ body {
     font-weight: bold;
     font-size: 2em;
     margin: 0.5em;
-    
+
 }
 
 #date {
@@ -236,7 +240,7 @@ body {
     font-weight: bold;
     font-size: 2em;
     margin: 0.5em;
-    
+
 }
 
 #hora {
@@ -244,13 +248,13 @@ body {
     font-weight: bold;
     font-size: 2em;
     margin: 0.5em;
-    
+
 }
 
 
 .ch1 {
 
-    #static,
+    #inicio,
     #ch2,
     #ch3,
     #ch4,
@@ -271,7 +275,7 @@ body {
 
 .ch2 {
 
-    #static,
+    #inicio,
     #ch1,
     #ch3,
     #ch4,
@@ -292,7 +296,7 @@ body {
 
 .ch3 {
 
-    #static,
+    #inicio,
     #ch1,
     #ch2,
     #ch4,
@@ -313,7 +317,7 @@ body {
 
 .ch4 {
 
-    #static,
+    #inicio,
     #ch1,
     #ch2,
     #ch3,
@@ -334,7 +338,7 @@ body {
 
 .ch5 {
 
-    #static,
+    #inicio,
     #ch1,
     #ch2,
     #ch3,
@@ -355,7 +359,7 @@ body {
 
 .ch6 {
 
-    #static,
+    #inicio,
     #ch1,
     #ch2,
     #ch3,
@@ -376,7 +380,7 @@ body {
 
 .ch7 {
 
-    #static,
+    #inicio,
     #ch1,
     #ch2,
     #ch3,
@@ -397,7 +401,7 @@ body {
 
 .ch8 {
 
-    #static,
+    #inicio,
     #ch1,
     #ch2,
     #ch3,
@@ -418,7 +422,7 @@ body {
 
 .ch9 {
 
-    #static,
+    #inicio,
     #ch1,
     #ch2,
     #ch3,
