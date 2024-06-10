@@ -1,31 +1,30 @@
 # TV interactiva🖥️
 
-## Tabla de contenido
+## Table of Contents
 
-- [Descripcion](#descripcion)
-- [Diseño](#diseño️)
+- [Description](#description)
+- [Design](#design️)
 - [Webgrafia](#webgrafia)
 - [Stack](#stack)
-- [Autor](#autor)
+- [Author](#author)
 
 
-## Descripcion📚
-En el siguiente proyecto formando parte de Geekshubs se propone el desarrollo de una interfaz de televisión interactiva con un mando a distancia utilizando tecnologías web como HTML, CSS y JavaScript. 
+## Description📚
+In the following project, part of Geekshubs, the development of an interactive television interface with a remote control is proposed using web technologies such as HTML, CSS and JavaScript.
 
-El objetivo principal es crear una experiencia de usuario intuitiva y
-funcional que simule la interacción con una televisión real.
+The main goal is to create an intuitive and functional user experience that simulates interaction with a real television.
 
 
-## Diseño🖋️
+## Design🖋️
 
-El diseño del proyecto consiste en una televisión interactiva con un mando a distancia el cual podremos tanto enchufar como apagar la tele y nos mostrara por pantalla la fecha y el supuesto canal seleccionado.
+The design of the project consists of an interactive television with a remote control which we can both plug in and turn off the TV and it will show us the date and the supposedly selected channel on the screen.
 
 <img width="1426" alt="Captura de pantalla 2023-01-30 a las 20 20 38" src="img/diseño.JPG">
 
 
 ## Webgrafia
 
-Recursos con los que he completado el proyecto:
+Resources with which I have completed the project:
  - [Gifs](https://gifer.com/es/)
 
 
@@ -35,7 +34,7 @@ Recursos con los que he completado el proyecto:
 <img src="https://img.shields.io/badge/HTML5-FF6C37?style=for-the-badge&logo=HTML5&logoColor=white"><img src="https://img.shields.io/badge/css-1D7CF2?style=for-the-badge&logo=css3&logoColor=white"><img src= "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
 
-## Autor
+## Author
 
 - **David Fernandez Valle**
   - [GitHub](https://github.com/Davfernandezz)
